@@ -1,0 +1,575 @@
+{
+  "banco": [
+    {
+      "id": 1,
+      "codigo": "341",
+      "nome": "Itaú",
+      "img": "assets/img/bancos/341.png"
+    },
+    {
+      "id": 2,
+      "codigo": "077",
+      "nome": "Inter",
+      "img": "assets/img/bancos/077.png"
+    }
+  ],
+  "grupo": [
+    {
+      "id": 1,
+      "nome": "Renda",
+      "tipo": 1,
+      "classe": "renda"
+    },
+    {
+      "id": 2,
+      "nome": "Gastos Essenciais",
+      "tipo": 2,
+      "classe": "gastos-essenciais"
+    },
+    {
+      "id": 3,
+      "nome": "Estilo de vida",
+      "tipo": 2,
+      "classe": "estilo-de-vida"
+    },
+    {
+      "id": 4,
+      "nome": "Empréstimos",
+      "tipo": 2,
+      "classe": "emprestimos"
+    },
+    {
+      "id": 5,
+      "nome": "Lançamentos entre Contas",
+      "tipo": 2,
+      "classe": "lanc-entre-contas"
+    },
+    {
+      "id": 6,
+      "nome": "Não Classificado",
+      "tipo": 3,
+      "classe": "nao-classificado"
+    }
+  ],
+  "conta": [
+    {
+      "banco": {
+        "id": 1,
+        "codigo": "341",
+        "nome": "Itaú",
+        "img": "assets/img/bancos/341.png"
+      },
+      "agencia": "7957",
+      "numeroConta": "011429",
+      "id": 1
+    },
+    {
+      "banco": {
+        "id": 2,
+        "codigo": "077",
+        "nome": "Inter",
+        "img": "assets/img/bancos/077.png"
+      },
+      "agencia": "0001",
+      "numeroConta": "19136668",
+      "id": 2
+    }
+  ],
+  "categoria": [
+    {
+      "id": 2,
+      "image": "assets/img/categoria/moradia.png",
+      "nome": "Moradia",
+      "classe": "moradia",
+      "cor": "#5F0F40",
+      "grupo": {
+        "id": 2,
+        "nome": "Gastos Essenciais",
+        "tipo": 2,
+        "classe": "gastos-essenciais"
+      }
+    },
+    {
+      "id": 3,
+      "image": "assets/img/categoria/tvInternetTelefone.png",
+      "nome": "TV/ Internet/ Telefone",
+      "classe": "tv-internet-telefone",
+      "cor": "#9A031E ",
+      "grupo": {
+        "id": 3,
+        "nome": "Estilo de vida",
+        "tipo": 2,
+        "classe": "estilo-de-vida"
+      }
+    },
+    {
+      "id": 4,
+      "image": "assets/img/categoria/chequeEspecial.png",
+      "nome": "Cheque Especial",
+      "classe": "cheque-especial",
+      "cor": "#FB8B24",
+      "grupo": {
+        "id": 4,
+        "nome": "Empréstimos",
+        "tipo": 2,
+        "classe": "emprestimos"
+      }
+    },
+    {
+      "id": 6,
+      "image": "assets/img/categoria/saques.png",
+      "nome": "Saques",
+      "classe": "saques",
+      "cor": "#E36414",
+      "grupo": {
+        "id": 3,
+        "nome": "Estilo de vida",
+        "tipo": 2,
+        "classe": "estilo-de-vida"
+      }
+    },
+    {
+      "id": 8,
+      "image": "assets/img/categoria/mercado.png",
+      "nome": "Mercado",
+      "classe": "mercado",
+      "cor": "#0F4C5C",
+      "grupo": {
+        "id": 2,
+        "nome": "Gastos Essenciais",
+        "tipo": 2,
+        "classe": "gastos-essenciais"
+      }
+    },
+    {
+      "id": 9,
+      "image": "assets/img/categoria/contasResidenciais.png",
+      "nome": "Lazer",
+      "classe": "lazer",
+      "cor": "#F25F5C",
+      "grupo": {
+        "id": 2,
+        "nome": "Gastos Essenciais",
+        "tipo": 2,
+        "classe": "gastos-essenciais"
+      }
+    },
+    {
+      "id": 10,
+      "image": "assets/img/categoria/saude.png",
+      "nome": "Saúde",
+      "classe": "saude",
+      "cor": "#69306d",
+      "grupo": {
+        "id": 2,
+        "nome": "Gastos Essenciais",
+        "tipo": 2,
+        "classe": "gastos-essenciais"
+      }
+    },
+    {
+      "id": 11,
+      "image": "assets/img/categoria/baresRestaurantes.png",
+      "nome": "Bares e Restaurantes",
+      "classe": "bares-e-restaurantes",
+      "cor": "#003049",
+      "grupo": {
+        "id": 3,
+        "nome": "Estilo de vida",
+        "tipo": 2,
+        "classe": "estilo-de-vida"
+      }
+    },
+    {
+      "id": 12,
+      "image": "assets/img/categoria/lazer.png",
+      "nome": "Lazer",
+      "classe": "lazer",
+      "cor": "#F25F5C",
+      "grupo": {
+        "id": 3,
+        "nome": "Estilo de vida",
+        "tipo": 2,
+        "classe": "estilo-de-vida"
+      }
+    },
+    {
+      "id": 13,
+      "image": "assets/img/categoria/compras.png",
+      "nome": "Compras",
+      "classe": "compras",
+      "cor": "#FCBF55",
+      "grupo": {
+        "id": 3,
+        "nome": "Estilo de vida",
+        "tipo": 2,
+        "classe": "estilo-de-vida"
+      }
+    },
+    {
+      "id": 14,
+      "image": "assets/img/categoria/rendimento.png",
+      "nome": "Rendimento",
+      "classe": "rendimento",
+      "cor": "#9bc53d",
+      "grupo": {
+        "id": 1,
+        "nome": "Renda",
+        "tipo": 1,
+        "classe": "renda"
+      }
+    },
+    {
+      "id": 15,
+      "image": "assets/img/categoria/outrasRendas.png",
+      "nome": "Outras Rendas",
+      "classe": "outras-rendas",
+      "cor": "#247BA0",
+      "grupo": {
+        "id": 1,
+        "nome": "Renda",
+        "tipo": 1,
+        "classe": "renda"
+      }
+    },
+    {
+      "id": 16,
+      "image": "assets/img/categoria/emprestimo.png",
+      "nome": "Empréstimo",
+      "classe": "emprestimo-renda",
+      "cor": "#70C1B3",
+      "grupo": {
+        "id": 1,
+        "nome": "Renda",
+        "tipo": 1,
+        "classe": "renda"
+      }
+    },
+    {
+      "id": 18,
+      "image": "assets/img/categoria/juros.png",
+      "nome": "Juros",
+      "classe": "juros",
+      "cor": "#ec9ded",
+      "grupo": {
+        "id": 4,
+        "nome": "Empréstimos",
+        "tipo": 2,
+        "classe": "emprestimos"
+      }
+    },
+    {
+      "id": 19,
+      "image": "assets/img/categoria/resgate.png",
+      "nome": "Resgate",
+      "classe": "resgate",
+      "cor": "#f038ff",
+      "grupo": {
+        "id": 5,
+        "nome": "Lançamentos entre Contas",
+        "tipo": 2,
+        "classe": "lanc-entre-contas"
+      }
+    },
+    {
+      "image": "assets/img/categoria/compras.png",
+      "classe": "nao-classificado",
+      "cor": "#50514F",
+      "nome": "a definir",
+      "grupo": {
+        "id": 6,
+        "nome": "Não Classificado",
+        "tipo": 3,
+        "classe": "nao-classificado"
+      },
+      "id": 20
+    },
+    {
+      "image": "assets/img/categoria/compras.png",
+      "classe": "nao-classificado",
+      "cor": "#50514F",
+      "grupo": {
+        "id": 5,
+        "nome": "Lançamentos entre Contas",
+        "tipo": 2,
+        "classe": "lanc-entre-contas"
+      },
+      "nome": "A Definir 2",
+      "id": 21
+    }
+  ],
+  "transacao": [
+    {
+      "id": 1,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": -1000,
+      "data": "2020-05-05T16:45:34.541Z",
+      "categoria": {
+        "id": 8,
+        "image": "assets/img/categoria/mercado.png",
+        "nome": "Mercado",
+        "classe": "mercado",
+        "grupo": {
+          "id": 2,
+          "nome": "Gastos Essenciais",
+          "tipo": 2,
+          "classe": "gastos-essenciais"
+        }
+      },
+      "descricao": "teste descrição",
+      "isAtivo": null
+    },
+    {
+      "id": 2,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": -680,
+      "data": "2020-05-05T16:50:23.741Z",
+      "categoria": {
+        "id": 2,
+        "image": "assets/img/categoria/moradia.png",
+        "nome": "Moradia",
+        "classe": "moradia",
+        "grupo": {
+          "id": 2,
+          "nome": "Gastos Essenciais",
+          "tipo": 2,
+          "classe": "gastos-essenciais"
+        }
+      },
+      "descricao": "teste descrição 02 0202 teste descrição 02 0202 teste descrição 02 0202 teste descrição 02 0202 ",
+      "isAtivo": null
+    },
+    {
+      "id": 3,
+      "conta": {
+        "banco": {
+          "id": 2,
+          "codigo": "077",
+          "nome": "Inter",
+          "img": "assets/img/bancos/077.png"
+        },
+        "agencia": "0001",
+        "numeroConta": "19136668",
+        "id": 2
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": -800,
+      "data": "2020-05-05T16:53:57.101Z",
+      "categoria": {
+        "id": 6,
+        "image": "assets/img/categoria/saques.png",
+        "nome": "Saques",
+        "classe": "saques",
+        "grupo": {
+          "id": 3,
+          "nome": "Estilo de vida",
+          "tipo": 2,
+          "classe": "estilo-de-vida"
+        }
+      },
+      "descricao": "Teste descrição 03 Teste descrição 03 Teste descrição 03 Teste descrição 03 ",
+      "isAtivo": null
+    },
+    {
+      "id": 4,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": 310,
+      "data": "2020-05-05T16:55:39.285Z",
+      "categoria": {
+        "id": 15,
+        "image": "assets/img/categoria/outrasRendas.png",
+        "nome": "Outras Rendas",
+        "classe": "outras-rendas",
+        "grupo": {
+          "id": 1,
+          "nome": "Renda",
+          "tipo": 1,
+          "classe": "renda"
+        }
+      },
+      "descricao": "uai uai uai uai uai uai uai uai uai uai uai uai ",
+      "isAtivo": null
+    },
+    {
+      "id": 5,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "tipo": null,
+      "mes": 4,
+      "ano": 2020,
+      "valor": 1250,
+      "data": "2020-05-05T18:28:43.815Z",
+      "categoria": {
+        "id": 14,
+        "image": "assets/img/categoria/rendimento.png",
+        "nome": "Rendimento",
+        "classe": "rendimento",
+        "grupo": {
+          "id": 1,
+          "nome": "Renda",
+          "tipo": 1,
+          "classe": "renda"
+        }
+      },
+      "descricao": "Renda 3",
+      "isAtivo": null
+    },
+    {
+      "id": 6,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": -6,
+      "data": "2020-05-06T22:38:47.414Z",
+      "categoria": {
+        "id": 10,
+        "image": "assets/img/categoria/saude.png",
+        "nome": "Saúde",
+        "classe": "saude",
+        "grupo": {
+          "id": 2,
+          "nome": "Gastos Essenciais",
+          "tipo": 2,
+          "classe": "gastos-essenciais"
+        }
+      },
+      "descricao": "teste",
+      "isAtivo": false
+    },
+    {
+      "id": 7,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": -100,
+      "data": "2020-05-07T14:44:13.106Z",
+      "categoria": {
+        "id": 13,
+        "image": "assets/img/categoria/compras.png",
+        "nome": "Compras",
+        "classe": "compras",
+        "grupo": {
+          "id": 3,
+          "nome": "Estilo de vida",
+          "tipo": 2,
+          "classe": "estilo-de-vida"
+        }
+      },
+      "descricao": "kjshdlfkjsdfkjhdsgfksjhfg",
+      "isAtivo": null
+    },
+    {
+      "id": 8,
+      "conta": {
+        "banco": {
+          "id": 1,
+          "codigo": "341",
+          "nome": "Itaú",
+          "img": "assets/img/bancos/341.png"
+        },
+        "agencia": "7957",
+        "numeroConta": "011429",
+        "id": 1
+      },
+      "codigo": "2938716293876",
+      "mes": 4,
+      "ano": 2020,
+      "tipo": null,
+      "valor": 2500,
+      "data": "2020-05-07T14:47:50.170Z",
+      "categoria": {
+        "id": 15,
+        "image": "assets/img/categoria/outrasRendas.png",
+        "nome": "Outras Rendas",
+        "classe": "outras-rendas",
+        "grupo": {
+          "id": 1,
+          "nome": "Renda",
+          "tipo": 1,
+          "classe": "renda"
+        }
+      },
+      "descricao": "Transferência do banco inter",
+      "isAtivo": null
+    }
+  ]
+}
